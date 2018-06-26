@@ -1,0 +1,31 @@
+<TABLE BORDER="5" WIDTH="100%" CELLPADDING="4" CELLSPACING="3">
+    <TR>
+
+        <TH colspan="5">
+            <H2>my_first_project_in_python</H2>
+        </TH>
+    </TR>
+    <TR>
+        <TH>S.no</TH>
+        <TH>Job Title</TH>
+        <TH>Job Description</TH>
+        <TH>Job Posted on</TH>
+        <TH>Job Location</TH>
+    </TR>
+    {% for x in something %}
+    <TR ALIGN="CENTER">
+        {% for i in x %}
+        <TD>{{i}}</TD>
+        {% endfor %}
+    </TR>
+    {% endfor %}
+
+
+</TABLE>
+
+
+
+
+
+
+
